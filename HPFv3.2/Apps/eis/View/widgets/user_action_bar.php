@@ -1,3 +1,5 @@
+<?php
+/*
 <ul class="user-actions">
 	<li>
 		<a href="<?= PORTAL ?>tasks/all/add" data-toggle="tooltip" data-placement="top" title="" data-original-title="Notes">
@@ -16,3 +18,6 @@
 		</a>
 	</li>
 </ul>
+
+*/
+?>
