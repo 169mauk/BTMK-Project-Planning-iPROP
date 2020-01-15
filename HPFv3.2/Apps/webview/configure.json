@@ -1,0 +1,19 @@
+{
+	"databases": [
+		{
+			"host": "127.0.0.1",
+			"database": "hitpm",
+			"username": "root",
+			"password": ""
+		}
+	],
+	"constants": [
+		{
+			"PORTAL": 	"http://192.168.56.1/HIT-Project-Monitoring-V2/webview/"
+		}
+	],
+	"miscs": [
+		"asset_loader.php"
+	],
+	"headers": []
+}
