@@ -47,6 +47,7 @@
 							  </div>
 							  <div class="or"></div>
 							  <div class="mt-4">
+							  	<a href="signup.html" class="additional-link">Don't have an Account? <span>Create Now</span></a>
 							  </div>
 							</div>
 						</div>
