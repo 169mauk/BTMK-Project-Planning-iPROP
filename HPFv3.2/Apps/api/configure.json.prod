@@ -2,14 +2,14 @@
 	"databases": [
 		{
 			"host": "127.0.0.1",
-			"database": "iprop",
-			"username": "root",
-			"password": ""
+			"database": "hitpm",
+			"username": "hitpm",
+			"password": "kedah-my123!@#"
 		}
 	],
 	"constants": [
 		{
-			"PORTAL": 	"http://localhost/BTMK-Project-Planning-iPROP/html/eis/"
+			"PORTAL": 	"http://210.19.105.177/api/"
 		}
 	],
 	"miscs": [
