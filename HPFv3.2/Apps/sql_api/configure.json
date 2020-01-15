@@ -2,14 +2,14 @@
 	"databases": [
 		{
 			"host": "127.0.0.1",
-			"database": "hitpm",
+			"database": "iprop",
 			"username": "root",
 			"password": ""
 		}
 	],
 	"constants": [
 		{
-			"PORTAL": 	"http://localhost/HIT-Project-Monitoring-V2/sql_api/"
+			"PORTAL": 	"http://localhost/BTMK-Project-Planning-iPROP/html/sql_api/"
 		}
 	],
 	"miscs": [
