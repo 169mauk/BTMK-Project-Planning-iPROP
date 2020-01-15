@@ -9,7 +9,7 @@
 	],
 	"constants": [
 		{
-			"PORTAL": 	"http://210.19.105.177/eis/"
+			"PORTAL": 	"http://localhost/BTMK-Project-Planning-iPROP/html/eis/"
 		}
 	],
 	"miscs": [
