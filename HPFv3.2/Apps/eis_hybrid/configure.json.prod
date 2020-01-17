@@ -1,0 +1,22 @@
+{
+	"databases": [
+		{
+			"host": "127.0.0.1",
+			"database": "hitpm",
+			"username": "hitpm",
+			"password": "kedah-my123!@#"
+		}
+	],
+	"constants": [
+		{
+			"PORTAL": 	"http://210.19.105.177/eis_hybrid/"
+		},
+		{
+			"ACCESS_KEY": "HJ12O1311VKAOD8VDVKO98F2KB2P834LK2349O8"
+		}
+	],
+	"miscs": [
+		"asset_loader.php"
+	],
+	"headers": []
+}
