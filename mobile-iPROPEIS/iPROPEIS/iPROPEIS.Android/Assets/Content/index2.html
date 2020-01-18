@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Main page - HTML Starter Project</title>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/pixeladmin.min.css" rel="stylesheet" type="text/css">
+    <link href="css/widgets.min.css" rel="stylesheet" type="text/css">
+    <link href="css/themes/candy-purple.min.css" rel="stylesheet" type="text/css">
+    <script src="pace/pace.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-firestore.js"></script>
+    <script>
+	// Initialize Cloud Firestore through Firebase
+	firebase.initializeApp({
+		apiKey: 'AIzaSyAA9Vd_5qwChvrQfJVP_uganKRxEeKM4cI',
+		authDomain: 'ionic-4-firebase-login-3926d.firebaseapp.com',
+		projectId: 'ionic-4-firebase-login-3926d'
+	});
+
+	var db = firebase.firestore();
+	var fields = [];
+	db.collection("fields").get().then((querySnapshot) => {
+		querySnapshot.forEach((doc) => {
+			fields.push({id: doc.id, ...doc.data()});
+		});
+	});
+
+	var PORTAL = "http://localhost/Mobile-Template-AngluarLIKE/";
+    </script>
+</head>
+<body>
+    <nav class="px-nav px-nav-left">
+        <button type="button" class="px-nav-toggle" data-toggle="px-nav">
+            <span class="px-nav-toggle-arrow"></span>
+            <span class="navbar-toggle-icon"></span>
+            <span class="px-nav-toggle-label font-size-11"></span>
+        </button>
+
+        <ul class="px-nav-content" id="main_menu"></ul>
+    </nav>
+
+    <nav class="navbar px-navbar">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">SUPERVISOR ALLOC. MATCH. ALGO</a>
+        </div>
+
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#px-navbar-collapse" aria-expanded="false">
+            <i class="navbar-toggle-icon"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="px-navbar-collapse">
+            <ul class="nav navbar-nav" id="sub_menu"></ul>
+        </div>
+    </nav>
+
+    <div class="px-content" id="content"></div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/pixeladmin.min.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+	Menu.load();
+
+	$file = PORTAL + "pages/index.html";
+	$.ajax({
+		method: "GET",
+		url: $file
+	}).done(function(res){
+		$("#content").html(res);
+	}).fail(function(){
+		$("#content").html("Fail loading file " + $file);
+	});
+
+	$(document).on("click", ".navigate", function(){
+		$(".px-nav-left").removeClass("px-nav-expand");
+		$("#px-navbar-collapse").removeClass("in");
+
+		$file = $(this).attr("data-file");
+
+		switch($file){
+			case "logout":
+				Session.clear();
+				$("#content").html("You are now not logged out.");
+				Menu.load();
+				$("#sub_menu").html("");
+			break;
+
+			default:
+				console.log($file);
+				$.ajax({
+					method: "GET",
+					url: PORTAL + $file
+				}).done(function(res){
+					$("#content").html(res);
+				}).fail(function(){
+					$("#content").html("Fail loading file " + $file);
+				});
+			break;
+		}
+	});
+
+    </script>
+</body>
+</html>
