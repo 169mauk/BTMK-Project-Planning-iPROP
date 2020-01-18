@@ -1,0 +1,891 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8E99B637-1AE8-43AC-AE17-B43160FAF1DE}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TemplateGuid>{c9e5eea5-ca05-42a1-839b-61506e0a37df}</TemplateGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>iPROPEIS.Droid</RootNamespace>
+    <AssemblyName>iPROPEIS.Android</AssemblyName>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
+    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
+    <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
+    <AndroidUseAapt2>true</AndroidUseAapt2>
+    <AndroidHttpClientHandlerType>Xamarin.Android.Net.AndroidClientHandler</AndroidHttpClientHandlerType>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <AotAssemblies>false</AotAssemblies>
+    <EnableLLVM>false</EnableLLVM>
+    <AndroidEnableProfiledAot>false</AndroidEnableProfiledAot>
+    <BundleAssemblies>false</BundleAssemblies>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
+    <AndroidSupportedAbis>armeabi-v7a;x86;x86_64;arm64-v8a</AndroidSupportedAbis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidManagedSymbols>true</AndroidManagedSymbols>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <AotAssemblies>false</AotAssemblies>
+    <EnableLLVM>false</EnableLLVM>
+    <AndroidEnableProfiledAot>false</AndroidEnableProfiledAot>
+    <BundleAssemblies>false</BundleAssemblies>
+    <AndroidSupportedAbis>armeabi-v7a;x86;x86_64;arm64-v8a</AndroidSupportedAbis>
+    <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
+    <AndroidLinkMode>None</AndroidLinkMode>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Android" />
+    <Reference Include="Mono.Android.Export" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="4.3.0.908675" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HybridWebViewRenderer.cs" />
+    <Compile Include="JavascriptWebViewClient.cs" />
+    <Compile Include="JSBridge.cs" />
+    <Compile Include="MainActivity.cs" />
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\css\datepicker.scss" />
+    <AndroidAsset Include="Assets\Content\css\main.css.bk" />
+    <AndroidAsset Include="Assets\Content\css\main.scss" />
+    <AndroidAsset Include="Assets\Content\css\variables.scss" />
+    <AndroidAsset Include="Assets\Content\fonts\glyphicons-halflings-regular.eot" />
+    <AndroidAsset Include="Assets\Content\fonts\glyphicons-halflings-regular.ttf" />
+    <AndroidAsset Include="Assets\Content\fonts\glyphicons-halflings-regular.woff" />
+    <AndroidAsset Include="Assets\Content\fonts\glyphicons-halflings-regular.woff2" />
+    <AndroidAsset Include="Assets\Content\fonts\icomoon\icomoon.eot" />
+    <AndroidAsset Include="Assets\Content\fonts\icomoon\icomoon.ttf" />
+    <AndroidAsset Include="Assets\Content\fonts\icomoon\icomoon.woff" />
+    <AndroidAsset Include="Assets\Content\fonts\opensans\opensans-bold-webfont.woff" />
+    <AndroidAsset Include="Assets\Content\fonts\opensans\opensans-bold-webfont.woff2" />
+    <AndroidAsset Include="Assets\Content\fonts\opensans\OpenSans-Bold.ttf" />
+    <AndroidAsset Include="Assets\Content\fonts\opensans\OpenSans-BoldItalic.ttf" />
+    <AndroidAsset Include="Assets\Content\fonts\opensans\OpenSans-ExtraBold.ttf" />
+    <AndroidAsset Include="Assets\Content\fonts\opensans\OpenSans-ExtraBoldItalic.ttf" />
+    <AndroidAsset Include="Assets\Content\fonts\opensans\OpenSans-Italic.ttf" />
+    <AndroidAsset Include="Assets\Content\fonts\opensans\OpenSans-Light.ttf" />
+    <AndroidAsset Include="Assets\Content\fonts\opensans\OpenSans-LightItalic.ttf" />
+    <AndroidAsset Include="Assets\Content\fonts\opensans\opensans-regular-webfont.woff" />
+    <AndroidAsset Include="Assets\Content\fonts\opensans\opensans-regular-webfont.woff2" />
+    <AndroidAsset Include="Assets\Content\fonts\opensans\OpenSans-Regular.ttf" />
+    <AndroidAsset Include="Assets\Content\fonts\opensans\OpenSans-Semibold.ttf" />
+    <AndroidAsset Include="Assets\Content\fonts\opensans\OpenSans-SemiboldItalic.ttf" />
+    <AndroidAsset Include="Assets\Content\vendor\icon-awesome\fonts\fontawesome-webfont.eot" />
+    <AndroidAsset Include="Assets\Content\vendor\icon-awesome\fonts\fontawesome-webfont.ttf" />
+    <AndroidAsset Include="Assets\Content\vendor\icon-awesome\fonts\fontawesome-webfont.woff" />
+    <AndroidAsset Include="Assets\Content\vendor\icon-awesome\fonts\fontawesome-webfont.woff2" />
+    <AndroidAsset Include="Assets\Content\vendor\icon-awesome\fonts\FontAwesome.otf" />
+    <AndroidAsset Include="Assets\Content\vendor\icon-awesome\less\animated.less" />
+    <AndroidAsset Include="Assets\Content\vendor\icon-awesome\less\bordered-pulled.less" />
+    <AndroidAsset Include="Assets\Content\vendor\icon-awesome\less\core.less" />
+    <AndroidAsset Include="Assets\Content\vendor\icon-awesome\less\fixed-width.less" />
+    <AndroidAsset Include="Assets\Content\vendor\icon-awesome\less\font-awesome.less" />
+    <AndroidAsset Include="Assets\Content\vendor\icon-awesome\less\icons.less" />
+    <AndroidAsset Include="Assets\Content\vendor\icon-awesome\less\larger.less" />
+    <AndroidAsset Include="Assets\Content\vendor\icon-awesome\less\list.less" />
+    <AndroidAsset Include="Assets\Content\vendor\icon-awesome\less\mixins.less" />
+    <AndroidAsset Include="Assets\Content\vendor\icon-awesome\less\path.less" />
+    <AndroidAsset Include="Assets\Content\vendor\icon-awesome\less\rotated-flipped.less" />
+    <AndroidAsset Include="Assets\Content\vendor\icon-awesome\less\screen-reader.less" />
+    <AndroidAsset Include="Assets\Content\vendor\icon-awesome\less\stacked.less" />
+    <AndroidAsset Include="Assets\Content\vendor\icon-awesome\less\variables.less" />
+    <AndroidAsset Include="Assets\Content\vendor\icon-awesome\scss\_animated.scss" />
+    <AndroidAsset Include="Assets\Content\vendor\icon-awesome\scss\_bordered-pulled.scss" />
+    <AndroidAsset Include="Assets\Content\vendor\icon-awesome\scss\_core.scss" />
+    <AndroidAsset Include="Assets\Content\vendor\icon-awesome\scss\_fixed-width.scss" />
+    <AndroidAsset Include="Assets\Content\vendor\icon-awesome\scss\_icons.scss" />
+    <AndroidAsset Include="Assets\Content\vendor\icon-awesome\scss\_larger.scss" />
+    <AndroidAsset Include="Assets\Content\vendor\icon-awesome\scss\_list.scss" />
+    <AndroidAsset Include="Assets\Content\vendor\icon-awesome\scss\_mixins.scss" />
+    <AndroidAsset Include="Assets\Content\vendor\icon-awesome\scss\_path.scss" />
+    <AndroidAsset Include="Assets\Content\vendor\icon-awesome\scss\_rotated-flipped.scss" />
+    <AndroidAsset Include="Assets\Content\vendor\icon-awesome\scss\_screen-reader.scss" />
+    <AndroidAsset Include="Assets\Content\vendor\icon-awesome\scss\_stacked.scss" />
+    <AndroidAsset Include="Assets\Content\vendor\icon-awesome\scss\_variables.scss" />
+    <AndroidAsset Include="Assets\Content\vendor\icon-awesome\scss\font-awesome.scss" />
+    <AndroidAsset Include="Assets\Content\vendor\summernote\font\summernote.eot" />
+    <AndroidAsset Include="Assets\Content\vendor\summernote\font\summernote.ttf" />
+    <AndroidAsset Include="Assets\Content\vendor\summernote\font\summernote.woff" />
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+    <None Include="Properties\AndroidManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Tabbar.xml" />
+    <AndroidResource Include="Resources\layout\Toolbar.xml" />
+    <AndroidResource Include="Resources\values\styles.xml" />
+    <AndroidResource Include="Resources\values\colors.xml" />
+    <AndroidResource Include="Resources\mipmap-anydpi-v26\icon.xml" />
+    <AndroidResource Include="Resources\mipmap-anydpi-v26\icon_round.xml" />
+    <AndroidResource Include="Resources\mipmap-hdpi\icon.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\launcher_foreground.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\icon.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\launcher_foreground.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\icon.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\launcher_foreground.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\icon.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\launcher_foreground.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\iPROPEIS\iPROPEIS.csproj">
+      <Project>{2BA3A7CD-AAE9-47AD-A38E-174E602DED36}</Project>
+      <Name>iPROPEIS</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\index.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\index2.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\css\bootstrap.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\css\datepicker.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\css\jquery-ui.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\css\main.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\fonts\glyphicons-halflings-regular.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\fonts\icomoon\demo.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\fonts\icomoon\demo.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\fonts\icomoon\icomoon.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\fonts\icomoon\icomoon.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\js\app.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\js\bootstrap.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\js\common.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\js\jquery-ui.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\js\jquery.easing.1.3.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\js\jquery.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\js\moment.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\js\tether.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\bluemoonNav\bluemoonNav.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\bs-select\bs-select.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\bs-select\bs-select.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\c3\c3.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\c3\c3.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\c3\custom\area-spline-graph.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\c3\custom\bar-area-graph.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\c3\custom\bar-graph.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\c3\custom\donut-chart.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\c3\custom\line-graph-one.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\c3\custom\line-graph-overview.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\c3\custom\line-graph.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\c3\custom\pie-chart-one.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\c3\custom\pie-chart.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\c3\custom\scatter-plot.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\c3\custom\server-requests.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\c3\custom\spline-graph.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\c3\custom\spline-sales.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\c3\custom\stacked-bar-braph.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\c3\custom\step-graph.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\calendar\css\custom-calendar.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\calendar\css\fullcalendar.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\calendar\js\custom-calendar.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\calendar\js\fullcalendar.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\chartist\css\chartist-custom.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\chartist\css\chartist.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\chartist\css\chartist.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\chartist\js\animations.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\chartist\js\chartist-plugin-accessibility.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\chartist\js\chartist-plugin-threshold.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\chartist\js\chartist-plugin-title.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\chartist\js\chartist-tooltip.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\chartist\js\chartist.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\chartist\js\chartist.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\chartist\js\custom\bi-polar-bar-chart.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\chartist\js\custom\custom-area-chart.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\chartist\js\custom\custom-area-chart2.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\chartist\js\custom\custom-area-chart3.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\chartist\js\custom\custom-area-chart4.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\chartist\js\custom\custom-bar-horizontal.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\chartist\js\custom\custom-compare-line.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\chartist\js\custom\custom-line-area.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\chartist\js\custom\custom-line-chart.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\chartist\js\custom\custom-line-chart1.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\chartist\js\custom\custom-line-chart2.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\chartist\js\custom\custom-line-chart3.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\chartist\js\custom\custom-line-chart4.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\chartist\js\custom\custom-multiline-chart.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\chartist\js\custom\custom-pie-charts.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\chartist\js\custom\custom-stack-bar.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\chartist\js\custom\donut-chart.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\chartist\js\custom\donut-chart2.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\chartist\js\custom\donut-chart3.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\chartist\js\custom\example-line-data-holes.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\chartist\js\custom\threshold.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\circliful\circliful.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\circliful\circliful.custom.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\circliful\circliful.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\content-filter\custom-filter.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\content-filter\main.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\content-filter\mixitup.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\d3\d3.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\datatables\dataTables.bootstrap.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\datatables\dataTables.bs4-custom.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\datatables\dataTables.bs4.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\datatables\dataTables.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\datatables\custom\custom-datatables.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\datatables\custom\fixedHeader.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\flot\jquery.flot.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\flot\jquery.flot.pie.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\flot\jquery.flot.resize.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\flot\jquery.flot.stack.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\flot\jquery.flot.time.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\flot\jquery.flot.tooltip.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\flot\custom\area.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\flot\custom\combine-chart-compare.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\flot\custom\combine-chart.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\flot\custom\donut.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\flot\custom\horizontal.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\flot\custom\line.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\flot\custom\multi-bar-chart.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\flot\custom\pie.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\flot\custom\realtime.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\flot\custom\rectangular-pie.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\flot\custom\scatter.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\flot\custom\stacked-area.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\flot\custom\stacked-horizontal.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\flot\custom\stacked-vertical.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\flot\custom\vertical.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\g-maps\custom-maps.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\g-maps\maps.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\gallery\baguetteBox.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\gallery\custom-gallery.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\gallery\gallery.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\gallery\plugins.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\icon-awesome\HELP-US-OUT.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\icon-awesome\css\font-awesome.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\icon-awesome\css\font-awesome.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\icon-awesome\fonts\fontawesome-webfont.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\jsgantt\jsgantt.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\jsgantt\jsgantt.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\jvectormap\africa-mill.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\jvectormap\au-mill.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\jvectormap\custom-map.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\jvectormap\de-merc.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\jvectormap\dk-mill.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\jvectormap\europe-mill.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\jvectormap\gdp-data.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\jvectormap\jquery-jvectormap-2.0.3.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\jvectormap\us_aea.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\jvectormap\usa.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\jvectormap\world-mill-en.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\jvectormap\custom\custom-denmark.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\jvectormap\custom\map-africa.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\jvectormap\custom\map-africa1.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\jvectormap\custom\map-europe.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\jvectormap\custom\map-usa.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\jvectormap\custom\regions-selection.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\jvectormap\custom\resions-with-labels.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\jvectormap\custom\world-map-gdp.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\jvectormap\custom\world-map-markers.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\lobipanel\lobipanel-custom.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\lobipanel\lobipanel.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\lobipanel\lobipanel.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\locationpicker\angularLocationpicker.jquery.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\locationpicker\angularLocationpicker.jquery.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\locationpicker\locationpicker.jquery.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\locationpicker\locationpicker.jquery.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\morris\morris.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\morris\morris.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\morris\morris.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\morris\raphael-min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\morris\custom\areaChart.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\morris\custom\areaChart2.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\morris\custom\barColors.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\morris\custom\barNoAxis.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\morris\custom\dayData.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\morris\custom\donutColors.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\morris\custom\donutFormatter.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\morris\custom\morrisBarChart.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\morris\custom\negativeValues.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\morris\custom\stackedBarChart.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\morris\custom\xLabelsDiagonally.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\newsticker\custom-newsTicker.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\newsticker\newsTicker.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\notify\notify-custom.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\notify\notify-flat.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\notify\notify.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\onoffcanvas\onoffcanvas.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\peity\custom-peity.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\peity\peity.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\rating\raty-custom.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\rating\raty.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\slimscroll\custom-scrollbar.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\slimscroll\slimscroll.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\sparkline\custom-sparkline.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\sparkline\sparkline-retina.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\summernote-bs4.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\summernote-bs4.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\summernote-bs4.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\summernote-lite.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\summernote-lite.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\summernote-lite.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\summernote.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\summernote.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\summernote.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-ar-AR.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-bg-BG.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-ca-ES.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-cs-CZ.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-da-DK.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-de-DE.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-el-GR.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-es-ES.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-es-EU.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-fa-IR.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-fi-FI.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-fr-FR.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-gl-ES.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-he-IL.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-hr-HR.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-hu-HU.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-id-ID.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-it-IT.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-ja-JP.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-ko-KR.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-lt-LT.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-lt-LV.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-mn-MN.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-nb-NO.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-nl-NL.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-pl-PL.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-pt-BR.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-pt-PT.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-ro-RO.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-ru-RU.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-sk-SK.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-sl-SI.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-sr-RS-Latin.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-sr-RS.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-sv-SE.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-ta-IN.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-th-TH.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-tr-TR.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-uk-UA.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-uz-UZ.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-vi-VN.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-zh-CN.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\lang\summernote-zh-TW.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\plugin\databasic\summernote-ext-databasic.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\plugin\databasic\summernote-ext-databasic.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\plugin\hello\summernote-ext-hello.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\summernote\plugin\specialchars\summernote-ext-specialchars.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\vendor\unifyMenu\unifyMenu.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\img\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\img\datepicker\img-one.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\img\datepicker\img-three.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\img\datepicker\img-two.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\img\logo_kedah.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\logo_kedah.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+</Project>

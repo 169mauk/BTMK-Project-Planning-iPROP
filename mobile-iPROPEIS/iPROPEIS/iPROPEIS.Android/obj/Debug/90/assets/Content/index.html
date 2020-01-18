@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Intelligent Hosting 2FA Application" />
+    <meta name="keywords" content="Intelhost 2 Factor Authentication" />
+    <meta name="author" content="Master Hery" />
+    <link rel="shortcut icon" href="img/logo.png" />
+    <title>BTMK iPROP EIS</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="fonts/icomoon/icomoon.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="vendor/morris/morris.css" />
+    <link rel="stylesheet" href="vendor/circliful/circliful.css" />
+    <link rel="stylesheet" href="css/jquery-ui.css" />
+    <link rel="stylesheet" href="css/datepicker.css" />
+    <script>
+        function base64_encode(str) {
+		    return btoa(encodeURIComponent(str).replace(/%([0-9A-F]{2})/g,
+			    function toSolidBytes(match, p1) {
+				    return String.fromCharCode('0x' + p1);
+		    }));
+	    }
+	
+	    function base64_decode(str) {
+		    return decodeURIComponent(atob(str).split('').map(function(c) {
+			    return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+		    }).join(''));
+	    }
+    </script>
+</head>
+<body>
+    <div id="loading-wrapper">
+        <div id="loader">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+            <div class="line4"></div>
+            <div class="line5"></div>
+            <div class="line6"></div>
+        </div>
+    </div>
+
+    <div class="app-wrap">
+        <header class="app-header">
+            <div class="container-fluid">
+                <div class="row gutters">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <a class="mini-nav-btn" href="#" id="app-side-mini-toggler">
+                            <i class="icon-menu5"></i>
+                        </a>
+                        <a href="#app-side" data-toggle="onoffcanvas" class="onoffcanvas-toggler" aria-expanded="true" style="border: none;">
+                            <i class="icon-menu5"></i>
+                        </a>
+
+                        <span class="text-white" style="font-size: 15pt; position: absolute; top: 50%; transform: translate(0, -50%)">BTMK - iPROP EIS</span>
+                    </div>
+                <!--
+                    <div class="col-xl-5 col-lg-5 col-md-6 col-sm-5 col-5 text-right">
+                        <ul class="header-actions">
+                            <li class="dropdown">
+                                <a href="#" id="userSettings" class="user-settings" data-toggle="dropdown" aria-haspopup="true">
+                                    <span class="avatar">KP<span class="status online"></span></span>
+                                    <span class="user-name">Kety Perry</span>
+                                    <i class="icon-chevron-small-down"></i>
+                                </a>
+                                <div class="dropdown-menu lg dropdown-menu-right" aria-labelledby="userSettings">
+                                    <ul class="user-settings-list">
+                                        <li>
+                                            <a href="profile.html">
+                                                <span class="icon icon-face"></span>
+                                                <span class="text-name">My Profile</span>
+                                                <span class="badge badge-secondary">7</span>
+                                            </a>
+                                        </li>
+                                        <hr />
+                                        <li>
+                                            <div class="actions">
+                                                <a href="login.html" class="btn btn-primary">Logout</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                -->
+                </div>
+            </div>
+        </header>
+
+        <div class="app-container">
+            <aside class="app-side" id="app-side">
+                <div class="side-content ">
+                    <a href="index.html" class="logo">
+                        <img src="img/logo_kedah.png" alt="EIS Dashboard" />
+                    </a>
+
+                    <nav class="side-nav">
+                        <ul class="bluemoonMenu" id="bluemoonMenu"></ul>
+                    </nav>
+                </div>
+            </aside>
+
+            <div class="app-main">
+            <!--
+                <header class="main-heading">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8">
+                                <div class="page-icon">
+                                    <i class="icon-laptop_windows"></i>
+                                </div>
+                                <div class="page-title">
+                                    <h5>Dashboard</h5>
+                                    <h6 class="sub-heading">Welcome to Bluemoon Admin Template</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+             -->
+
+                <div class="main-content" id="content" style="padding: 0.5rem;"></div>
+            </div>
+        </div>
+
+        <footer class="main-footer">
+            Delivered by Noor Puteh & Keluaraga Sdn Bhd
+        </footer>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="vendor/bluemoonNav/bluemoonNav.js"></script>
+    <script src="vendor/onoffcanvas/onoffcanvas.js"></script>
+    <script src="js/moment.js"></script>
+    <script src="vendor/slimscroll/slimscroll.min.js"></script>
+    <script src="vendor/slimscroll/custom-scrollbar.js"></script>
+    <script src="vendor/newsticker/newsTicker.min.js"></script>
+    <script src="vendor/morris/raphael-min.js"></script>
+    <script src="vendor/morris/morris.min.js"></script>
+    <script src="vendor/circliful/circliful.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="vendor/jvectormap/jquery-jvectormap-2.0.3.min.js"></script>
+    <script src="vendor/jvectormap/usa.js"></script>
+	<script src="vendor/flot/jquery.flot.min.js"></script>
+	<script src="vendor/flot/jquery.flot.time.min.js"></script>
+	<script src="vendor/flot/jquery.flot.pie.min.js"></script>
+	<script src="vendor/flot/jquery.flot.stack.min.js"></script>
+	<script src="vendor/flot/jquery.flot.tooltip.min.js"></script>
+	<script src="vendor/flot/jquery.flot.resize.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

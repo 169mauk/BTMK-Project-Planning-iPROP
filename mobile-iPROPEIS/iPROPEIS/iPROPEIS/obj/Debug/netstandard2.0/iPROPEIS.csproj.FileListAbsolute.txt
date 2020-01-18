@@ -1,0 +1,12 @@
+F:\Mr Hery\Projects\iPROPEIS\iPROPEIS\iPROPEIS\bin\Debug\netstandard2.0\iPROPEIS.deps.json
+F:\Mr Hery\Projects\iPROPEIS\iPROPEIS\iPROPEIS\bin\Debug\netstandard2.0\iPROPEIS.dll
+F:\Mr Hery\Projects\iPROPEIS\iPROPEIS\iPROPEIS\bin\Debug\netstandard2.0\ref\iPROPEIS.dll
+F:\Mr Hery\Projects\iPROPEIS\iPROPEIS\iPROPEIS\bin\Debug\netstandard2.0\iPROPEIS.pdb
+F:\Mr Hery\Projects\iPROPEIS\iPROPEIS\iPROPEIS\obj\Debug\netstandard2.0\iPROPEIS.csprojAssemblyReference.cache
+F:\Mr Hery\Projects\iPROPEIS\iPROPEIS\iPROPEIS\obj\Debug\netstandard2.0\App.xaml.g.cs
+F:\Mr Hery\Projects\iPROPEIS\iPROPEIS\iPROPEIS\obj\Debug\netstandard2.0\iPROPEIS.AssemblyInfoInputs.cache
+F:\Mr Hery\Projects\iPROPEIS\iPROPEIS\iPROPEIS\obj\Debug\netstandard2.0\iPROPEIS.AssemblyInfo.cs
+F:\Mr Hery\Projects\iPROPEIS\iPROPEIS\iPROPEIS\obj\Debug\netstandard2.0\iPROPEIS.dll
+F:\Mr Hery\Projects\iPROPEIS\iPROPEIS\iPROPEIS\obj\Debug\netstandard2.0\ref\iPROPEIS.dll
+F:\Mr Hery\Projects\iPROPEIS\iPROPEIS\iPROPEIS\obj\Debug\netstandard2.0\iPROPEIS.pdb
+F:\Mr Hery\Projects\iPROPEIS\iPROPEIS\iPROPEIS\obj\Debug\netstandard2.0\XamlC.stamp
