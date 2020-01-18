@@ -1,0 +1,56 @@
+C:\Users\Vionna\source\repos\HITPM\HITPM\HITPM\bin\Debug\netstandard2.0\HITPM.deps.json
+C:\Users\Vionna\source\repos\HITPM\HITPM\HITPM\bin\Debug\netstandard2.0\HITPM.dll
+C:\Users\Vionna\source\repos\HITPM\HITPM\HITPM\bin\Debug\netstandard2.0\HITPM.pdb
+C:\Users\Vionna\source\repos\HITPM\HITPM\HITPM\obj\Debug\netstandard2.0\HITPM.csprojAssemblyReference.cache
+C:\Users\Vionna\source\repos\HITPM\HITPM\HITPM\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Vionna\source\repos\HITPM\HITPM\HITPM\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Vionna\source\repos\HITPM\HITPM\HITPM\obj\Debug\netstandard2.0\HITPM.csproj.CoreCompileInputs.cache
+C:\Users\Vionna\source\repos\HITPM\HITPM\HITPM\obj\Debug\netstandard2.0\HITPM.AssemblyInfoInputs.cache
+C:\Users\Vionna\source\repos\HITPM\HITPM\HITPM\obj\Debug\netstandard2.0\HITPM.AssemblyInfo.cs
+C:\Users\Vionna\source\repos\HITPM\HITPM\HITPM\obj\Debug\netstandard2.0\HITPM.dll
+C:\Users\Vionna\source\repos\HITPM\HITPM\HITPM\obj\Debug\netstandard2.0\HITPM.pdb
+C:\Users\Vionna\source\repos\HITPM\HITPM\HITPM\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM\bin\Debug\netstandard2.0\HITPM.deps.json
+C:\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM\bin\Debug\netstandard2.0\HITPM.dll
+C:\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM\bin\Debug\netstandard2.0\HITPM.pdb
+C:\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM\obj\Debug\netstandard2.0\HITPM.csprojAssemblyReference.cache
+C:\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM\obj\Debug\netstandard2.0\HITPM.AssemblyInfoInputs.cache
+C:\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM\obj\Debug\netstandard2.0\HITPM.AssemblyInfo.cs
+C:\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM\obj\Debug\netstandard2.0\HITPM.dll
+C:\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM\obj\Debug\netstandard2.0\HITPM.pdb
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM\bin\Debug\netstandard2.0\HITPM.deps.json
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM\bin\Debug\netstandard2.0\HITPM.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM\bin\Debug\netstandard2.0\HITPM.pdb
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM\obj\Debug\netstandard2.0\HITPM.csprojAssemblyReference.cache
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM\obj\Debug\netstandard2.0\App.xaml.g.cs
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM\obj\Debug\netstandard2.0\HITPM.AssemblyInfoInputs.cache
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM\obj\Debug\netstandard2.0\HITPM.AssemblyInfo.cs
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM\obj\Debug\netstandard2.0\HITPM.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM\obj\Debug\netstandard2.0\HITPM.pdb
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM\bin\Debug\netstandard2.0\HITPM.deps.json
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM\bin\Debug\netstandard2.0\HITPM.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM\bin\Debug\netstandard2.0\HITPM.pdb
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM\obj\Debug\netstandard2.0\HITPM.csprojAssemblyReference.cache
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM\obj\Debug\netstandard2.0\HITPM.AssemblyInfoInputs.cache
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM\obj\Debug\netstandard2.0\HITPM.AssemblyInfo.cs
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM\obj\Debug\netstandard2.0\HITPM.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM\obj\Debug\netstandard2.0\HITPM.pdb
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM\obj\Debug\netstandard2.0\XamlC.stamp
+H:\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM\bin\Debug\netstandard2.0\HITPM.deps.json
+H:\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM\bin\Debug\netstandard2.0\HITPM.dll
+H:\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM\bin\Debug\netstandard2.0\HITPM.pdb
+H:\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM\obj\Debug\netstandard2.0\HITPM.csprojAssemblyReference.cache
+H:\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM\obj\Debug\netstandard2.0\App.xaml.g.cs
+H:\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+H:\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM\obj\Debug\netstandard2.0\HITPM.AssemblyInfoInputs.cache
+H:\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM\obj\Debug\netstandard2.0\HITPM.AssemblyInfo.cs
+H:\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM\obj\Debug\netstandard2.0\XamlC.stamp
+H:\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM\obj\Debug\netstandard2.0\HITPM.dll
+H:\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM\obj\Debug\netstandard2.0\HITPM.pdb

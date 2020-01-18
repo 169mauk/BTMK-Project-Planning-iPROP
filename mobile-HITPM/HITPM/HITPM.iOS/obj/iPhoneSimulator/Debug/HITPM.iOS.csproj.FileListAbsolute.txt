@@ -1,0 +1,126 @@
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\obj\iPhoneSimulator\Debug\optimized\
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\obj\iPhoneSimulator\Debug\HITPM.iOS.csprojAssemblyReference.cache
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\HITPM.iOS.exe
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\HITPM.iOS.pdb
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.pdb
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.pdb
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.pdb
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.pdb
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\ar\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\ca\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\cs\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\da\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\de\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\el\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\es\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\fi\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\fr\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\he\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\hi\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\hr\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\hu\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\id\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\it\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\ja\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\ko\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\ms\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\nb\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\nl\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\pl\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\pt-br\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\pt\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\ro\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\ru\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\sk\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\sv\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\th\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\tr\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\uk\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\vi\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Maps.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Maps.iOS.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\HITPM.dll
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\HITPM.pdb
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\HITPM.dll.mdb
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\obj\iPhoneSimulator\Debug\XamlC.stamp
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\obj\iPhoneSimulator\Debug\HITPM.iOS.csproj.CopyComplete
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\obj\iPhoneSimulator\Debug\HITPM.iOS.exe
+F:\Mr Hery\Projects\HIT-Project-Monitoring-Mobile\HITPM\HITPM\HITPM.iOS\obj\iPhoneSimulator\Debug\HITPM.iOS.pdb
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\HITPM.iOS.exe
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\HITPM.iOS.pdb
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\Plugin.Permissions.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\Plugin.Media.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.pdb
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.pdb
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.pdb
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.pdb
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\ar\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\ca\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\cs\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\da\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\de\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\el\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\es\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\fi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\fr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\he\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\hi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\hr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\hu\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\id\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\it\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\ja\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\ko\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\ms\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\nb\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\nl\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\pl\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\pt-br\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\pt\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\ro\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\ru\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\sk\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\sv\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\th\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\tr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\uk\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\vi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Maps.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Maps.iOS.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\HITPM.dll
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\HITPM.pdb
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\obj\iPhoneSimulator\Debug\optimized\
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\obj\iPhoneSimulator\Debug\HITPM.iOS.csprojAssemblyReference.cache
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\obj\iPhoneSimulator\Debug\XamlC.stamp
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\obj\iPhoneSimulator\Debug\HITPM.iOS.csproj.CopyComplete
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\obj\iPhoneSimulator\Debug\HITPM.iOS.exe
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\obj\iPhoneSimulator\Debug\HITPM.iOS.pdb
+C:\Projects\HIT-Project-Monitoring-Mobile-hery_dell\HITPM\HITPM.iOS\bin\iPhoneSimulator\Debug\HITPM.dll.mdb
