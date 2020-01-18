@@ -21,7 +21,8 @@ $(document).on("click", "#login", () => {
 	if($("#username").val() == "" || $("#password").val() == ""){
 		alert("Username and password cannot be empty.");
 	}else{
-		
+		Run("Hello World");
+		//alert(y);
 	}
 })
 </script>
